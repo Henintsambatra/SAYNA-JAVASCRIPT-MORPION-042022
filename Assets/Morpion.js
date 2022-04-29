@@ -12,3 +12,6 @@ const WINNING_COMBINATION = [
 
 ]
 const cellElements = document.querySelectorAll('[data - cell} ')
+const board = document.getElementById('board')
+const restartButton = document.getElementById('restartButton')
+const winningMessageTextElement = document.querySelectorAll('data-winning-message-text')
